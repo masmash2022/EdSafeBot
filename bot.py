@@ -6,7 +6,7 @@ ans_right = ['1', '2', '2', '4', '3', '2', '1', '2']
 
 theme = [0 for i in range(4)]
 
-bot = telebot.TeleBot('5422552101:AAEulv9Yu7XlwT1s2Y8pYsdrVca8841tf74')
+bot = telebot.TeleBot('') # токен скрыт из соображений безопасности
 
 # Начало, 2 кнопки: Старт, Тест
 @bot.message_handler(commands=["start"])
